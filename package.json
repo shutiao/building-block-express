@@ -1,0 +1,25 @@
+{
+  "name": "buildingblock",
+  "version": "1.0.0",
+  "description": "code school express course",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shutiao/building-block-express.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "shutiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shutiao/building-block-express/issues"
+  },
+  "homepage": "https://github.com/shutiao/building-block-express#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
