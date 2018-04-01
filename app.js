@@ -5,10 +5,8 @@ app.get('/', function(req, res){
 	res.send('OK');
 });
 
-/*
-app.listen(3000, function(){
-	console.log('Express is listening on 3000')
+app.get('/cities', function(req, res){
+	var cities = ['Lotopia', 'Caspiana', 'Indigo']; 
+	res.json(cities);
 });
-*/
-
 module.exports = app;
